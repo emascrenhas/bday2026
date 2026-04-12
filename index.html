@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div class="page active" id="page1">
+  <h1>Hey Love ❤️</h1>
+  <p class="message">
+    I made something special for you...  
+    Tap below to continue ✨
+  </p>
+  <button onclick="nextPage()">Tap to Continue</button>
+</div>
+
+<!-- PAGE 2 (TABS) -->
+<div class="page" id="page2">
+  <h2>Our Memories 💖</h2>
+
+  <div class="tabs">
+
+    <!-- TAB 1 -->
+    <button onclick="openMemory(0)">First Memory</button>
+
+    <!-- TAB 2 -->
+    <button onclick="openMemory(1)">A Special Day</button>
+
+    <!-- TAB 3 -->
+    <button onclick="openMemory(2)">You & Me</button>
+
+    <!-- TAB 4 -->
+    <button onclick="openMemory(3)">Our Moment</button>
+
+    <!-- TAB 5 -->
+    <button onclick="openMemory(4)">Smile Time</button>
+
+    <!-- TAB 6 -->
+    <button onclick="openMemory(5)">Cute You</button>
+
+    <!-- TAB 7 -->
+    <button onclick="openMemory(6)">Forever Us</button>
+
+    <!-- FINAL TAB -->
+    <button onclick="openMemory(7)">Final Surprise 🎁</button>
+
+  </div>
+</div>
+
+<!-- MEMORY PAGE -->
+<div class="page" id="memoryPage">
+  <img id="memoryImage" src="" alt="memory">
+
+  <p id="memoryText"></p>
+
+  <button onclick="backToTabs()">⬅ Back</button>
+</div>
+
+<!-- FINAL PAGE -->
+<div class="page" id="finalPage">
+  <h1>Happy Birthday ❤️</h1>
+  <p class="message">
+    You mean everything to me.  
+    I hope this made you smile 😊
+  </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
