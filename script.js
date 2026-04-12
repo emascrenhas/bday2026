@@ -16,42 +16,42 @@ function nextPage() {
 /* MEMORY DATA (EDIT THIS PART ONLY) */
 const memories = [
   {
-    img: "images/pic1.jpg",
+    img: "images/pic1.png",
     text: "This was one of my favorite moments with you ❤️",
     song: "music/song1.mp3"
   },
   {
-    img: "images/pic2.jpg",
+    img: "images/pic2.png",
     text: "You looked so beautiful here 😍",
     song: "music/song2.mp3"
   },
   {
-    img: "images/pic3.jpg",
+    img: "images/pic3.png",
     text: "I still smile thinking about this day 😊",
     song: "music/song3.mp3"
   },
   {
-    img: "images/pic4.jpg",
+    img: "images/pic4.png",
     text: "This moment means a lot to me 💖",
     song: "music/song4.mp3"
   },
   {
-    img: "images/pic5.jpg",
+    img: "images/pic5.png",
     text: "Your smile here = my happiness 💕",
     song: "music/song5.mp3"
   },
   {
-    img: "images/pic6.jpg",
+    img: "images/pic6.png",
     text: "You’re the cutest person ever 🥺",
     song: "music/song6.mp3"
   },
   {
-    img: "images/pic7.jpg",
+    img: "images/pic7.png",
     text: "Forever us ❤️",
     song: "music/song7.mp3"
   },
   {
-    img: "images/pic8.jpg",
+    img: "images/pic8.png",
     text: "Click below for your final surprise 🎁",
     song: "music/song8.mp3",
     final: true
