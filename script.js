@@ -17,37 +17,37 @@ function nextPage() {
 const memories = [
   {
     img: "images/pic1.png",
-    text: "This was one of my favorite moments with you ❤️",
+    text: "Happy Birthday to the most beautifull girl💗",
     song: "music/song1.mp3"
   },
   {
     img: "images/pic2.png",
-    text: "You looked so beautiful here 😍",
+    text: "Happy Birthday to the most cutest girl🫶",
     song: "music/song2.mp3"
   },
   {
     img: "images/pic3.png",
-    text: "I still smile thinking about this day 😊",
+    text: "Happy Birthday to the most hardworking girl💞",
     song: "music/song3.mp3"
   },
   {
     img: "images/pic4.png",
-    text: "This moment means a lot to me 💖",
+    text: "Happy Birthday to the bestest ever girl💖",
     song: "music/song4.mp3"
   },
   {
     img: "images/pic5.png",
-    text: "Your smile here = my happiness 💕",
+    text: "Happy Birthday to the reason of my happiness💕",
     song: "music/song5.mp3"
   },
   {
     img: "images/pic6.png",
-    text: "You’re the cutest person ever 🥺",
+    text: "Happy Birthday to the girl who have my heart❤️",
     song: "music/song6.mp3"
   },
   {
     img: "images/pic7.png",
-    text: "Forever us ❤️",
+    text: "Happy Birthday to the girl whome i want to see smile always😚",
     song: "music/song7.mp3"
   },
   {
