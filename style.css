@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffe6f0;
+  text-align: center;
+}
+
+/* Page Control */
+.page {
+  display: none;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.page.active {
+  display: block;
+}
+
+/* Text */
+h1, h2 {
+  color: #ff4d88;
+}
+
+.message {
+  font-size: 18px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+/* Buttons */
+button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #ff4d88;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e6005c;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Image */
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
